@@ -1,21 +1,55 @@
-# Python-challenge - PyBank and PyPoll
-Module 3 Challenge - Homework
+# Financial-and-Election-Data-Analysis
 
 ## Overview
 
-This repository contains solutions for the Python Challenge assignments: PyBank and PyPoll. These assignments involve analyzing financial records and election data using Python scripts.
+This repository contains solutions for analyzing financial records and election data using Python scripts. The analysis is divided into two main assignments: PyBank and PyPoll.
 
-For detailed information about each assignment, refer to the specific README files in the respective directories.
+## Project Structure
 
-## Assignments
+### Files
 
-- PyBank: Analysis of financial records.
-- PyPoll: Analysis of election data.
+- `PyBank/`: Directory containing the financial records analysis.
+  - `pybank.ipynb`: Jupyter Notebook for PyBank analysis.
+  - `budget_data.csv`: CSV file with financial records data.
+- `PyPoll/`: Directory containing the election data analysis.
+  - `pypoll.ipynb`: Jupyter Notebook for PyPoll analysis.
+  - `election_data.csv`: CSV file with election data.
+
+### PyBank Analysis
+
+The PyBank analysis involves:
+- Reading the financial records data.
+- Calculating key financial metrics such as total months, total profit/loss, average change, greatest increase in profits, and greatest decrease in profits.
+- Generating a summary report with the calculated metrics.
+
+### PyPoll Analysis
+
+The PyPoll analysis involves:
+- Reading the election data.
+- Calculating the total number of votes.
+- Determining the percentage of votes and total votes each candidate received.
+- Identifying the winner of the election based on popular vote.
+
+## Usage
+
+To run the analysis, follow these steps:
+
+1. Clone the repository:
+    ```bash
+    git clone git@github.com:endoplasmicosmic/Python-challenge.git
+    cd Python-challenge
+    ```
+
+2. Open Jupyter Lab:
+    ```bash
+    jupyter lab
+    ```
+
+3. Navigate to the respective directories (`PyBank` or `PyPoll`) and open the Jupyter Notebooks (`pybank.ipynb` or `pypoll.ipynb`).
+
+4. Run the cells step-by-step to perform the analysis and generate the results.
 
 ## Contributing
+
 If you would like to contribute to this project, please submit a pull request via [git@github.com:endoplasmicosmic/Python-challenge.git] or share your suggestions at [scy.gingery@gmail.com].
-
-## License
-
-This project is licensed under the NWU_BootCamp.
 
