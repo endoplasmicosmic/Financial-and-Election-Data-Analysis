@@ -1,4 +1,4 @@
-# Financial-and-Election-Data-Analysis
+# Financial-and-Election-Data-Analysis - Python
 
 ## Overview
 
