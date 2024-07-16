@@ -49,7 +49,3 @@ To run the analysis, follow these steps:
 
 4. Run the cells step-by-step to perform the analysis and generate the results.
 
-## Contributing
-
-If you would like to contribute to this project, please submit a pull request via [git@github.com:endoplasmicosmic/Python-challenge.git] or share your suggestions at [scy.gingery@gmail.com].
-
